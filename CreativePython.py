@@ -99,6 +99,13 @@ img3.convert("L")
 print(img5.size)
 print(img3.size)
 
+choix = inout("1 = generate picture 1, 2 = generate picture 2, 3 = filtre, 4 = mask, 5 = mask et ellipse floue ")
+choix = int(choix)
+if choix == 1 :
+    img1.show()
+elif choix == 2: 
+    img2.show()
+
 #img1.show()
 #img2.show()
 #img3.show()
