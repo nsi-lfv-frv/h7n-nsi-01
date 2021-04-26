@@ -4,7 +4,7 @@ import urllib.request
 # ouvrir une image hberge sur internet
 im = Image.open(urllib.request.urlopen('https://i.pinimg.com/originals/09/77/5d/09775d1e419f8e781a651b12ecbcfa70.png'))
 
-#im = Image.open('chihiros.jpg')
+#im = Image.open('mononoke.jpg')
 
 # informations sur l'image
 print(im.format, im.size, im.mode)
