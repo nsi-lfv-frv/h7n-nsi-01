@@ -2,7 +2,7 @@ from PIL import Image,ImageDraw,ImageFilter
 from IPython.display import display
 import urllib.request
 # ouvrir une image hberge sur internet
-im = Image.open(urllib.request.urlopen('https://raw.githubusercontent.com/hackathon-nsi/h7n-nsi-01/main/images/washington.bmp'))
+im = Image.open(urllib.request.urlopen('https://i.pinimg.com/originals/09/77/5d/09775d1e419f8e781a651b12ecbcfa70.png'))
 
 #im = Image.open('chihiros.jpg')
 
